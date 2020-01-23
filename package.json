@@ -1,0 +1,36 @@
+{
+  "name": "treen",
+  "version": "1.0.0",
+  "description": "Javascript tree structure library for model-controller(view) structure.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "set NODE_ENV=production && webpack",
+    "watch": "set NODE_ENV=development && webpack --watch",
+    "test": "node ./example/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lunuy/treen.git"
+  },
+  "keywords": [
+    "infinite",
+    "recursive",
+    "recursion",
+    "function",
+    "stack",
+    "impure"
+  ],
+  "author": "Lunuy",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Lunuy/treen/issues"
+  },
+  "homepage": "https://github.com/Lunuy/treen#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "wolfy87-eventemitter": "^5.2.9"
+  }
+}
